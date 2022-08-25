@@ -1,301 +1,367 @@
-html{
-    scroll-behavior: smooth}
-body{
-    padding: 90px 20px 0;
-    background: rgb(249, 246, 238); 
-    text-decoration: none;
-}
-.fondo{
-    background-image: url(https://earlygame.com/uploads/images/_1200x630_crop_center-center_82_none/mafia-5.jpg?mtime=1653936839);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-} 
-ul li{
-    text-decoration: none;
-}
-.textoContactanos{
-    font-family: 'Italianno', cursive;
-    color: black;
-    font-size:xx-large;
-}
-.textosT{
-    font-family: 'Italianno', cursive;
-    color: black;
-    font-size:xx-large;
-    text-align: center;
-}
-.textoM{
-    font-family: 'Italianno', cursive;
-    font-size: xx-large;
-    text-decoration: none;
-    text-decoration: black;
-    text-align: center;
-}
-.textoD{
-    font-family: 'Italianno', cursive;
-    font-size: xx-large;
-    text-decoration: none;
-    text-decoration: black;
-    text-align: center;
-}
-.BotonSaberMas{
-    flex-direction: row;
-    text-align: center;
-    justify-content:space-evenly;
-    margin: auto;
-    margin-top: 1rem;
-    background-color:none;
-    border-radius: 1rem;
-
-}
-.BotonSaberMas:hover{
-    text-decoration: underline;
-}
-.divbotonsabermas{
-    margin:2px;
-    background-color: rgb(232,224,228);
+html {
+  scroll-behavior: smooth;
 }
 
-.textosNav{
-    font-family: 'Italianno', cursive;
-    font-size: 30px;
+body {
+  padding: 90px 20px 0;
+  background: rgb(249, 246, 238);
+  text-decoration: none;
 }
-.textosNav:hover{
-    text-decoration: underline;
-}
-.textosinfo{
-    font-family:'Josefin Sans', sans-serif;
-    font-size: 30px;
-    text-align: center;
-}
-a{
-    text-decoration: none;
 
+.fondo {
+  background-image: url(https://earlygame.com/uploads/images/_1200x630_crop_center-center_82_none/mafia-5.jpg?mtime=1653936839);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-*{
-    padding: 0px;
-    margin: 0px;
+
+ul li {
+  text-decoration: none;
 }
-.navbar{
-    border-top:1;
-    top: 0;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-    background-color: rgb(232,224,228);
-    opacity: 0.7;
-    height: auto;
-    width: 96.8%;
-    border:1px solid #eee;
-    border:0.063rem solid rgb(249, 246, 238);
-    border-top:1;
-    position: fixed;
-    z-index: 1;
+
+.textoContactanos {
+  font-family: "Italianno", cursive;
+  color: black;
+  font-size: xx-large;
 }
-.navbar:hover{
-    opacity:1 ;
+
+.textosT {
+  font-family: "Italianno", cursive;
+  color: black;
+  font-size: xx-large;
+  text-align: center;
 }
+
+.textoM {
+  font-family: "Italianno", cursive;
+  font-size: xx-large;
+  text-decoration: none;
+  text-decoration: black;
+  text-align: center;
+}
+
+.textoD {
+  font-family: "Italianno", cursive;
+  font-size: xx-large;
+  text-decoration: none;
+  text-decoration: black;
+  text-align: center;
+}
+
+.BotonSaberMas {
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-evenly;
+  margin: auto;
+  margin-top: 1rem;
+  background-color: none;
+  border-radius: 1rem;
+}
+.BotonSaberMas:hover {
+  text-decoration: underline;
+}
+
+.divbotonsabermas {
+  margin: 2px;
+  background-color: rgb(232, 224, 228);
+}
+
+.textosNav {
+  font-family: "Italianno", cursive;
+  font-size: 30px;
+}
+.textosNav:hover {
+  text-decoration: underline;
+}
+
+.textosinfo {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  text-decoration: none;
+  color: black;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.navbar {
+  border-top: 1;
+  top: 0;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: rgb(232, 224, 228);
+  opacity: 0.7;
+  height: auto;
+  width: 97%;
+  border: 1px solid #eee;
+  border-top: 1;
+  position: fixed;
+  z-index: 1;
+}
+.navbar:hover {
+  opacity: 1;
+}
+
 header li {
-    display:inline-block;
-    margin: 5px;
-    padding: 0 20px;
-    text-decoration: none;
-    background-color: none;
-    font-size: large;
+  display: inline-block;
+  margin: 5px;
+  padding: 0 20px;
+  text-decoration: none;
+  background-color: none;
+  font-size: large;
 }
 
-.SeccionesC{
-    border-top:1;
-    display: flex; 
-    flex-wrap: wrap;
-    opacity: 0.9;
-    background-color: rgb(232,224,228);
-    border-color: black;
-    border:1px solid #eee;
-
+.SeccionesC {
+  border-top: 1;
+  display: flex;
+  flex-wrap: wrap;
+  opacity: 0.9;
+  background-color: rgb(232, 224, 228);
+  border-color: black;
+  border: 1px solid #eee;
 }
 
-.ImagenLogo{
+.ImagenLogo {
   width: 50%;
   margin: auto;
   border-radius: 50%;
   padding: 6px;
   opacity: 0.9;
+}
 
+.divflex {
+  flex: 1;
+  padding: 25px;
+  background-color: rgb(232, 224, 228);
+  margin: 20px;
+  margin-bottom: 0px;
 }
-.divflex .ImagenLogo{
-    align-content: center;
-    align-items: center;
+.divflex .ImagenLogo {
+  align-content: center;
+  align-items: center;
 }
-.divflex{
-    flex: 1;
-    padding: 25px;
-    background-color: rgb(232,224,228);
-    margin: 20px;
-    margin-bottom: 0px;
-}
-.divflex:first-child{
-    flex:1;
-    padding: 25px;
-    background-color: rgb(232,224,228);
-    margin: 20px;
-    margin-bottom: 0px;
+.divflex:first-child {
+  flex: 1;
+  padding: 25px;
+  background-color: rgb(232, 224, 228);
+  margin: 20px;
+  margin-bottom: 0px;
 }
 .divflex div {
-    padding: 25px;
-    background-color: rgb(232,224,228);
-    margin: 20px;
-}
-.divLogo
-{
-    display: flex;
-    align-items: center;
-}
-.textoL{
-    text-align: center;
-    font-family: 'Italianno', cursive;
-    font-size: xx-large;
-    text-decoration: none;
-    text-decoration: black;
-}
-.imagenLocales{
-    width:80% ;
-    margin: auto;
-    padding: 6px;
-}
-.divimagenlocal{
-    display: flex;
-    flex-wrap: wrap;
-    align-content: space-around;
+  padding: 25px;
+  background-color: rgb(232, 224, 228);
+  margin: 20px;
 }
 
-.imagenMenu{  
-    width:30%;
-}
-.divimagenMenu{
-    display: flex;
-    flex-direction: row;
-    flex-wrap:wrap;
-    justify-content:space-evenly;
-    align-items: center;
-	border:1px solid none;
-	border-top:1;
-    margin: auto;
-}
-a{
-    text-decoration: none;
-    color: black;
-}
-.imagenD{
-    width: 30%;
-    border-radius: 50%;
-}
-.pie{
-    display:inline-block;
-    padding-left:1rem;
-    padding-right:1rem;
-    text-decoration: none;
-    color: black;
-    font-family: 'Italianno', cursive;
-    text-decoration: none;
-
-}
-.divSobrenosotros{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-}
-.navbarmedia{
-    display: flex;
-    visibility: hidden;
-}
-.delivery{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    align-content: space-around;
-}
-.divDelivery{
-    display: flex;
-    flex-direction: column;
-
-}
-.imagenDelivery{
-    display: flex;
-    justify-content: center;
-    
-}
-.imgD{
-    border-radius: 50%;
-
-}
-.botonD{
-        border: 1px solid whitesmoke;
-        padding: 10px; 
-        background-color: grey; 
-        color: #ffffff;
-        text-decoration: none; 
-        text-transform: uppercase; 
-        font-family:'Josefin Sans', sans-serif;; 
-        border-radius: 50px; 
-}
-.MenusCel{
-    display: none;
-}
-.divDelivery{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.botonpedirya{
-    margin-top: 10px;
-    text-decoration: none;
-    color: black;
-    font-family: 'Italianno', cursive;
-}
-.botonpedirya:hover{
-    text-decoration: underline;
+.divLogo {
+  display: flex;
+  align-items: center;
 }
 
+.textoL {
+  text-align: center;
+  font-family: "Italianno", cursive;
+  font-size: xx-large;
+  text-decoration: none;
+  text-decoration: black;
+}
+
+.imagenLocales {
+  width: 80%;
+  margin: auto;
+  padding: 6px;
+}
+
+.divimagenlocal {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+
+.imagenMenu {
+  width: 30%;
+  transition: 5s;
+}
+.imagenMenu:hover {
+  width: 40%;
+}
+
+.divimagenMenu {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 1px solid none;
+  border-top: 1;
+  margin: auto;
+}
+
+.imagenD {
+  width: 30%;
+  border-radius: 50%;
+}
+
+.pie {
+  display: inline-block;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-decoration: none;
+  color: black;
+  font-family: "Italianno", cursive;
+  text-decoration: none;
+}
+
+.divSobrenosotros {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.navbarmedia {
+  display: flex;
+  visibility: hidden;
+}
+
+.delivery {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: space-around;
+}
+
+.divDelivery {
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imagenDelivery {
+  display: flex;
+  justify-content: center;
+}
+
+.imgD {
+  border-radius: 50%;
+}
+
+.imgLogo {
+  width: 6%;
+}
+
+.botonD {
+  border: 1px solid whitesmoke;
+  padding: 10px;
+  background-color: grey;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Josefin Sans", sans-serif;
+  border-radius: 50px;
+}
+
+.MenusCel {
+  display: none;
+}
+
+.botonpedirya {
+  margin-top: 10px;
+  text-decoration: none;
+  color: black;
+  font-family: "Italianno", cursive;
+}
+.botonpedirya:hover {
+  text-decoration: underline;
+}
+
+footer {
+  margin: 0;
+  position: relative;
+  background: rgb(20, 20, 20);
+  color: rgb(232, 224, 228);
+}
+footer h4 {
+  margin-bottom: 0;
+}
+footer h5 {
+  line-height: 1.5;
+}
+footer .restaurant-info {
+  padding: 35px 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+footer .copyright {
+  background: rgb(35, 35, 35);
+  color: rgb(150, 150, 150);
+  font-size: 14px;
+  letter-spacing: 1px;
+  padding: 10px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+footer .copyright span {
+  border-bottom: solid 1px;
+}
 
 @media (max-width: 768px) {
-    body {
-      padding-top: 70px;
-    }
-    .header {
-      height: 60px;
-    }
-    .divimagenMenu{
-        display: flex;
-        flex-direction: column;
-    }
-    .imagenMenu{
-        width: 60%;
-    }
-    .imagenLocales{
-        display: flex;
-        width: 7rem;
-    }
-    .imagenMenu:hover{
-        width: 100%;
-    }
-    .navbar{
-        visibility: hidden;
-    }
-    .navbarmedia{
-        visibility: visible;
-    }
-    .divimagenMenu{
-        display: none;
-    }
-    .MenusCel{
-        display: flex;
-    }
-    .mapaD{
-        display: none;
-    }
+  body {
+    padding-top: 70px;
+  }
+  .header {
+    height: 60px;
+  }
+  .divimagenMenu {
+    display: flex;
+    flex-direction: column;
+    display: none;
+  }
+  .imagenMenu {
+    width: 60%;
+  }
+  .imagenMenu:hover {
+    width: 100%;
+  }
+  .imagenLocales {
+    display: flex;
+    width: 100%;
+  }
+  .navbar {
+    visibility: hidden;
+    width: 90%;
+  }
+  .navbarmedia {
+    visibility: visible;
+  }
+  .MenusCel {
+    display: flex;
+  }
+  .mapaD {
+    display: none;
+  }
 }
+@media (min-width: 768px) {
+  footer .restaurant-info {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
